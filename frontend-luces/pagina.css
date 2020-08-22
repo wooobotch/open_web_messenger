@@ -1,0 +1,46 @@
+/*
+The City Lights
+HTML5 Canvas Visualization of Gert Strydom's Poem
+Dev: Steve Belovarich
+Website: stephenbelovarich.com
+
+Recently I've been experimenting with Javascript in ePub 3, primarily for iBooks. ePub breathes new life into poems and stories in ways that people haven't even begun to experiment with. Its a shame when firms just photocopy the physical version of a book into ePub. Authors lose out on so much potential interactivity.
+
+ePub is a wide frontier for developers and designers.
+
+If you've got an idea for an eBook and need and interactive designer to breathe life into the design, contact steve@installationspace.com. 
+*/
+
+body {margin:0;padding:0;}
+canvas{
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+#poem {
+	position: absolute;
+	top: 0px;
+	left:50%;
+	width: 480px;
+	height: auto;
+	margin-left: -240px;
+	font: 1.4em "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	text-shadow: 0.12em 0.12em 0.36em #da6e0e;
+	color:#fff;
+}
+#poem ul {
+	list-style-type: none;
+	margin-left:-36px;
+}
+#poem li {
+	padding-bottom:0.8em;
+	opacity:0.8;
+}
+#poem h3 {
+	margin-right:64px;
+  margin-top:-12px;
+	text-align:right;
+}
